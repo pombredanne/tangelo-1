@@ -56,6 +56,7 @@ LOCAL_APPS = [
     # 'tangelo.users.apps.UsersConfig',
     # 'tangelo.users',
     'users',
+    'tangerine',
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
