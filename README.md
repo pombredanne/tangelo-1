@@ -8,12 +8,11 @@ This project uses the new pipenv system in place of the old pip + virtualenv
 
 Tangelo uses the new [pipenv](https://docs.pipenv.org/) system, which combines virtual environment and dependency
 management into a unified tool. In other words, the single `pipenv` command replaces all of the virtual environment
-*and* `pip` commands you may be accustomed to. `pipenv` is the new *officially recommended* system for venv and
-packagement management in python.
+*and* `pip` commands you may be accustomed to. `pipenv` is the new *officially recommended* system for venv and packagement management in python.
 
-.. image:: https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg
-     :target: https://github.com/pydanny/cookiecutter-django/
-     :alt: Built with Cookiecutter Django
+[logo]: https://img.shields.io/badge/built%20with-Cookiecutter%20Django-ff69b4.svg
+![logo]
+
 
 :License: MIT
 
