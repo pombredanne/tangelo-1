@@ -30,18 +30,12 @@ if READ_DOT_ENV_FILE:
 # APP CONFIGURATION
 # ------------------------------------------------------------------------------
 DJANGO_APPS = [
-    # Default Django apps:
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
-    # Useful template tags:
-    # 'django.contrib.humanize',
-
-    # Admin
     'django.contrib.admin',
 ]
 THIRD_PARTY_APPS = [
@@ -49,17 +43,14 @@ THIRD_PARTY_APPS = [
     'allauth',  # registration
     'allauth.account',  # registration
     'allauth.socialaccount',  # registration
+    'adminsortable',  # drag/drop objects in admin to set order
 ]
 
-# Apps specific for this project go here.
 LOCAL_APPS = [
-    # 'tangelo.users.apps.UsersConfig',
-    # 'tangelo.users',
     'users',
     'tangerine',
 ]
 
-# See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
 
 # MIDDLEWARE CONFIGURATION
