@@ -15,6 +15,10 @@ urlpatterns = [
     url(r'^users/', include('users.urls', namespace='users')),
     url(r'^accounts/', include('allauth.urls')),  # Handled by django-allauth
 
+    # Tangerine blog
+    url(r'^blog/', include('tangerine.urls', namespace='tangerine')),
+
+
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:
