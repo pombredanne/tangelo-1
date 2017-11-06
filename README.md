@@ -58,3 +58,13 @@ To run the tests, check your test coverage, and generate an HTML coverage report
 Until I work out github dependency URLs, just install manually into tangelo:
 pipenv install -e git+https://github.com/shacker/django-admin-sortable.git#egg=adminsortable
 May need to add to permanent container site docs if my sortable changes aren't merged.
+
+------
+
+TEMPLATES
+
+Base template must include:
+{% block content %}{% endblock content %}
+
+If you want Related Links with a certain slug for the RelatedLinkGroup, use:
+{% block blogroll %}{% endblock blogroll %}
