@@ -6,7 +6,6 @@ Test settings for Tangelo project.
 
 from .base import *  # noqa
 
-
 # DEBUG
 # ------------------------------------------------------------------------------
 # Turn debug off so tests run faster
@@ -41,7 +40,10 @@ CACHES = {
 # TESTING
 # ------------------------------------------------------------------------------
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
-
+# DATABASES['default'] = {
+#     'ENGINE': 'django.db.backends.sqlite3',
+#     'NAME': None,
+# }
 
 # PASSWORD HASHING
 # ------------------------------------------------------------------------------
