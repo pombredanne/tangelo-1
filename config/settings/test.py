@@ -6,6 +6,17 @@ Test settings for Tangelo project.
 
 from .base import *  # noqa
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'tangelo_test',
+        'USER': 'shacker',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
+        'PORT': '',
+    },
+}
+
 # DEBUG
 # ------------------------------------------------------------------------------
 # Turn debug off so tests run faster
