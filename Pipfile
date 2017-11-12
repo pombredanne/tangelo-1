@@ -20,7 +20,6 @@ pillow = ">=4.3.0"
 "psycopg2" = "*"
 pytz = "*"
 requests = "*"
-adminsortable = {git = "https://github.com/shacker/django-admin-sortable.git", editable = true}
 
 #########
 

@@ -51,10 +51,3 @@ To run the tests, check your test coverage, and generate an HTML coverage report
     $ pytest
     $ coverage html
     $ open htmlcov/index.html
-
-
------------
-
-Until I work out github dependency URLs, just install manually into tangelo:
-pipenv install -e git+https://github.com/shacker/django-admin-sortable.git#egg=adminsortable
-May need to add to permanent container site docs if my sortable changes aren't merged.
