@@ -19,3 +19,13 @@
 [hidden][style="display: block;"] {
   display: block !important;
 }
+
+h2.tagline {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.news-item {
+    display: block;
+    margin-bottom: 40px;
+}
