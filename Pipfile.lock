@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "d67af0a2c448b2780bbc0df7c0a843ff7d9c92f133999574d22e211888ada7d0"
+            "sha256": "0197802e5bf1148153f7f7a8cf5bf687dfdbd3643c2e7aa63b5f3f78e3aececf"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -149,10 +149,10 @@
         },
         "django-debug-toolbar": {
             "hashes": [
-                "sha256:0b4d2b1ac49a8bc5604518e8e20f56c1c08c0c4873336107e7c773c42537876b",
-                "sha256:e9f08b94f9423ac76cfc287151182bbaddbe7521ae32bef9f9863e2ac58018d3"
+                "sha256:4af2a4e1e932dadbda197b18585962d4fc20172b4e5a479490bc659fe998864d",
+                "sha256:d9ea75659f76d8f1e3eb8f390b47fc5bad0908d949c34a8a3c4c87978eb40a0f"
             ],
-            "version": "==1.8"
+            "version": "==1.9.1"
         },
         "django-environ": {
             "hashes": [
@@ -162,15 +162,8 @@
             "version": "==0.4.4"
         },
         "django-extensions": {
-            "hashes": [
-                "sha256:2489ee3e71d4412926b8b91a8a3ca04f716df33be7020dc172d23e87a76a3f2f",
-                "sha256:3f6f2960a21fe0dfc42060523a6783c3d0b09578ca90ce2ca9fd5e846dca783f"
-            ],
-            "version": "==1.9.7"
-        },
-        "django-tangerine": {
             "editable": true,
-            "git": "git@github.com:shacker/tangerine.git@f091f3b8159d0582dc27940889af29ad338d7f5e"
+            "git": "https://github.com/django-extensions/django-extensions.git"
         },
         "gunicorn": {
             "hashes": [
@@ -212,6 +205,12 @@
                 "sha256:f6d5973573e76b1fd2ea75f6dcd6445d02d41ff3af5fc61b275b4e323d1dd396"
             ],
             "version": "==0.11.0"
+        },
+        "libgravatar": {
+            "hashes": [
+                "sha256:5d17eb60447ff0b1c523d7e03945c7086242678b77f42ee25e50b1ffe2f3cb16"
+            ],
+            "version": "==0.2.2"
         },
         "oauthlib": {
             "hashes": [
@@ -496,10 +495,9 @@
         },
         "django": {
             "hashes": [
-                "sha256:75ce405d60f092f6adf904058d023eeea0e6d380f8d9c36134bac73da736023d",
-                "sha256:8918e392530d8fc6965a56af6504229e7924c27265893f3949aa0529cd1d4b99"
+                "sha256:bbf9aedead4417142d78e2135089737d0205fd2d3641c6cec65583109ce676bf"
             ],
-            "version": "==1.11.7"
+            "version": "==2.0rc1"
         },
         "django-coverage-plugin": {
             "hashes": [
@@ -529,10 +527,10 @@
         },
         "py": {
             "hashes": [
-                "sha256:2ccb79b01769d99115aa600d7eed99f524bf752bba8f041dc1c184853514655a",
-                "sha256:0f2d585d22050e90c7d293b6451c83db097df77871974d90efd5a30dc12fcde3"
+                "sha256:8cca5c229d225f8c1e3085be4fcf306090b00850fefad892f9d96c7b6e2f310f",
+                "sha256:ca18943e28235417756316bfada6cd96b23ce60dd532642690dcfdaba988a76d"
             ],
-            "version": "==1.4.34"
+            "version": "==1.5.2"
         },
         "pycodestyle": {
             "hashes": [
@@ -550,10 +548,10 @@
         },
         "pytest": {
             "hashes": [
-                "sha256:81a25f36a97da3313e1125fce9e7bbbba565bc7fec3c5beb14c262ddab238ac1",
-                "sha256:27fa6617efc2869d3e969a3e75ec060375bfb28831ade8b5cdd68da3a741dc3c"
+                "sha256:241d7e7798d79192a123ceaf64c602b4d233eacf6d6e42ae27caa97f498b7dc6",
+                "sha256:6d5bd4f7113b444c55a3bbb5c738a3dd80d43563d063fc42dcb0aaefbdd78b81"
             ],
-            "version": "==3.2.3"
+            "version": "==3.2.5"
         },
         "pytest-django": {
             "hashes": [

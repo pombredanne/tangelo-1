@@ -13,14 +13,15 @@ django-allauth = ">=0.34.0"
 django-crispy-forms = ">=1.7.0"
 django-debug-toolbar = ">=1.8"
 django-environ = ">=0.4.0"
-django-extensions = "==1.9.7"
+django-extensions = {git = "https://github.com/django-extensions/django-extensions.git", editable = true}
+
 gunicorn = "*"
 ipdb = "==0.10.3"
 pillow = ">=4.3.0"
 "psycopg2" = "*"
 pytz = "*"
 requests = "*"
-
+libgravatar = "*"
 #########
 
 

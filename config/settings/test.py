@@ -72,3 +72,6 @@ TEMPLATES[0]['OPTIONS']['loaders'] = [
         'django.template.loaders.app_directories.Loader',
     ], ],
 ]
+
+AKISMET_KEY = '118107e30522'
+SITE_URL = 'https://blog.birdhouse.org'
