@@ -75,3 +75,6 @@ TEMPLATES[0]['OPTIONS']['loaders'] = [
 
 AKISMET_KEY = '118107e30522'
 SITE_URL = 'https://blog.birdhouse.org'
+
+USE_TZ = True
+TIME_ZONE = 'America/Los_Angeles'
