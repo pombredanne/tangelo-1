@@ -1,8 +1,11 @@
 from django.conf import settings
 from django.conf.urls import include, url
+from django.urls import path
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.views import defaults as default_views
+from django.views.generic import TemplateView
+
 
 urlpatterns = [
 
@@ -12,8 +15,11 @@ urlpatterns = [
     url(r'^users/', include('users.urls', namespace='users')),
     url(r'^accounts/', include('allauth.urls')),  # Handled by django-allauth
 
-    # Tangerine blog
-    url(r'', include('tangerine.urls', namespace='tangerine')),
+    path('', TemplateView.as_view(template_name='home.html')),
+
+    # Tangerine blog. To support multiple tangerine instances per project, first param names the blog.
+    path('<blog_slug>/', include('tangerine.urls', namespace='tangerine')),
+
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
